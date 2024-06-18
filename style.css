@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: #fff;
+}
+
+.main{
+    width: 100%;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    gap: 40px;
+}
+.nav2{
+    display: flex;
+    gap: 10px;
+}
+.heading h1{
+    font-size: 8vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: medium bold;
+    line-height: 1;
+    opacity: .6;
+    margin-left: 30px;
+    color: #1ef701;
+}
+
+.heading{
+    margin-top: 90px;
+}
+
+.heading .heading2{
+    margin-left: 340px;
+}
+h5{
+    padding-left: 320px;
+}
+.blocktext{
+    width: fit-content;
+    
+}
+
+.blocktext h5{
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 15.5px;
+}
+
+.chhotiheading{
+    padding-top: 20px;
+    margin-top: 50px;
+    padding-right: 10px;
+}
+
+.chhotiheading h5{
+    text-align: right;
+    margin-top: .5vw;
+    font-size: 2vw;
+    text-align: right;
+}
+
+.herofooter{
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+   
+}
+
+.herofooter a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.herofooter .iconset{
+    display: flex;
+    gap: 10px;
+}
+
+.herofooter .circle{
+    display: flex;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #888;
+}
+
+.second{
+    padding-right: 10vw;
+    padding-top: 200px;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.job{
+    margin-bottom: 2%;
+    padding-left:50%;
+    color: #06f84f;
+}
+
+
+.elem{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    border-top: 1px solid #888;
+    padding: 3.5vw 3vw;
+    padding-right: 0;
+    position: relative;
+}
+
+.elem h1{
+    text-transform: uppercase;
+    font-size: 2.5vw;
+    opacity: .7;
+}
+
+.elem button{
+    height: 5vh;
+    width: 5vw;
+    font-size: 2vh;
+    color: #fff;
+    background-color: #030303;
+    border-radius: 50%;
+    border-color: #2a06f8;
+}
+
+.elem a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.elemlast{
+    border-bottom: 1px solid #888;
+}
+.elem img{
+    display: none;
+    /* opacity: 0; */
+    height: 100%;
+    z-index: 999;
+    position: absolute;
+}
+
+.about{
+    padding-top: 25%;
+    padding-left: 0;
+    padding-right: 10%;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    padding-left: 30vw;
+    align-items: center;
+    background-color: black;
+}
+
+.about img{
+    width: 200px;
+    padding-left: 0;
+}
+.textabout{
+    width:100rem;
+    background-color: #030303;
+    padding-top: 5%;
+}
+.textabout h3{
+    padding-left: 200px;
+}
+
+.textabout h5{
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+
+.textabout p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.textabout a{
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.subscribe{
+    color: #fff;
+    background-color: black;
+    padding: 20px 30px;
+    padding-bottom: 3vw;
+}
+
+.subscribe h5{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.subscribe h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-left: 20px;
+    margin-top: 1%;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.footerleft{
+    display: flex;
+    gap: 20px;
+}
+
+.footerright{
+    display: flex;
+    gap: 20px;
+}
+
+.footer a{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight:500; 
+    color: #fff;
+    background-color: black;
+    text-decoration: none;
+}
